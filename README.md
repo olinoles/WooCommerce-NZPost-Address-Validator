@@ -12,4 +12,4 @@ You will need access to the NZ Post API to do this.
 
 <h2>Image:</h2> 
 
-<img src="https://github.com/olinoles/Wordpress-NZPost-Address-validator/blob/master/demo.jpg"></img>
+![Demo](https://github.com/olinoles/Wordpress-NZPost-Address-validator/blob/master/demo.jpg)
