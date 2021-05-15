@@ -23,6 +23,7 @@ var addressKeyPressHandler = debounce(function () {
     addressSuggestions = getAddressSuggestions(inputField.value);
 }, 250);
 
+//retrieve addresses from the NZ post API. Default to 10 addresses
 function getAddressSuggestions(address) {
     fetch(('https://api.nzpost.co.nz/parceladdress/2.0/domestic/addresses?count=' + 10 + '&q=' + address),
         {
@@ -114,6 +115,7 @@ function applyAddressSuggestion(element, address) {
         });
 }
 
+//this function stops the request if more input is detected, to prevent flooding the API
 function debounce(func, wait, immediate) {
     var timeout;
     return function () {
