@@ -1,6 +1,6 @@
 <h2>Description:</h2>  
 
-A simple JS script I wrote for adding address validation to the WooCommerce checkout.  When a user begins typing their address into the address field, the script will create a populated list of results. When an address is clicked on, it will fill all address fields.
+A pure JS script I wrote for adding address validation to the WooCommerce checkout.  When a user begins typing their address into the address field, the script will create a populated list of results. When an address is clicked on, it will fill all address fields.
 It uses the NZ Post parcel address API to validate user input on the address field at the WooCommerce checkout. You will need to obtain permission from NZ post to use their API first. [NZ Post API reference here](https://anypoint.mulesoft.com/exchange/portals/nz-post-group/b8271f09-2ad8-4e1c-b6b1-322c5727d148/parceladdress-api/)
 
 You can also use [this PHP script](https://github.com/olinoles/Retrieve-NZ-Post-API-Token) to generate your API token.
